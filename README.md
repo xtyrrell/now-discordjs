@@ -1,5 +1,5 @@
 # now-discordjs
-A template for developing a discord.js bot to be deployed on ZEIT's free Now deployment platform.
+A template for developing a discord.js bot to deploy on ZEIT's free Now deployment platform.
 
 ## What is this?
 If you're written a Discord bot, and want to run it on a Discord server, one option is to simply run it from your own computer. However, having to choose between keeping your PC running or letting your bot go offline isn't great.
@@ -14,7 +14,7 @@ Note that because this project is set up for bots written in JavaScript, you wil
 Credits: parts of this guide are adapted from https://itnext.io/hosting-a-javascript-discord-bot-for-free-with-zeit-now-c140e27c6936.
 
 ## Clone this repository
-To start off, clone this repository to a directory where you keep your projects
+To start off, clone this repository to a directory where you keep your projects.
 ```bash
 $ git clone https://github.com/ImFeelingDucky/now-discordjs.git && cd now-discordjs
 ```
@@ -57,3 +57,8 @@ where `now-discordjs` is the name of the current directory. There will be some d
 ```bash
 $ now
 ```
+
+## Build your bot
+Now you have deployment set up, build your bot by editing `main.js`. This template already has ECMAScript Modules support enabled, so you can `import` rather than `require()`.
+
+Don't forget to remove the previous deployment when deploying a new version of your bot to avoid having two versions running at the same time.
