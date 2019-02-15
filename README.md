@@ -11,7 +11,7 @@ This project provides a template to deploy a bot written using the `discord.js` 
 Note that because this project is set up for bots written in JavaScript, you will probably struggle to get it working for a bot written in any other language. In that case, try deploying it through Heroku or glitch.com, or with a paid VPS like a DigitalOcean droplet.
 
 # How to deploy your bot
-This guide is adapted from https://itnext.io/hosting-a-javascript-discord-bot-for-free-with-zeit-now-c140e27c6936.
+Credits: parts of this guide are adapted from https://itnext.io/hosting-a-javascript-discord-bot-for-free-with-zeit-now-c140e27c6936.
 
 ## Clone this repository
 To start off, clone this repository to a directory where you keep your projects
