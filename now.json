@@ -1,0 +1,9 @@
+{
+	"name": "now-discordjs",
+	"version": 1,
+	"env": {
+		"TOKEN": "@discord-token"
+	},
+	"public": true,
+	"regions": ["bru1"]
+}

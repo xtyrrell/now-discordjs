@@ -5,19 +5,17 @@
   "main": "index.js",
   "module": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ImFeelingDucky/now-discordjs.git"
-  },
+  "repository": "github:ImFeelingDucky/now-discordjs",
   "keywords": [
     "now",
     "discord.js",
     "discord",
     "bot"
   ],
-  "author": "",
+  "author": "ImFeelingDucky",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ImFeelingDucky/now-discordjs/issues"
@@ -26,5 +24,8 @@
   "dependencies": {
     "discord.js": "^11.4.2",
     "esm": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
