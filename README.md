@@ -14,19 +14,19 @@ Note that because this project is set up for bots written in JavaScript, you wil
 This guide is adapted from https://itnext.io/hosting-a-javascript-discord-bot-for-free-with-zeit-now-c140e27c6936.
 
 ## Clone this repository
-To start off, clone this repository to your 'projects' directory.
+To start off, clone this repository to a directory where you keep your projects
 ```bash
-$ git clone 
+$ git clone https://github.com/ImFeelingDucky/now-discordjs.git && cd now-discordjs
 ```
 
 ## Set up Now
-First, make a ZEIT account at https://zeit.co/signup
+Make a ZEIT account at https://zeit.co/signup.
 
 Next, set up Now on your computer. You can do this by either simply installing the Now command-line interface with
 ```bash
 $ npm install --global now
 ```
-or by [downloading the Now desktop app](https://zeit.co/download), which comes with a friendly GUI in addition to being bundled with the command-line interface.
+or by [downloading the Now desktop app](https://zeit.co/download), which comes with a friendly GUI as well as the same command-line interface.
 
 Finally, login to Now. Follow the prompts if you're using the desktop app, or run
 ```bash
@@ -35,7 +35,7 @@ $ now login
 in your terminal and follow the instructions.
 
 ## Add your discord bot token
-After setting Now up, you'll need to add your Discord bot's token to the project. Go to https://discordapp.com/developers/applications/, click on your bot's application, then go to Bot, and copy your bot's 'token'.
+After setting Now up, you'll need to add your Discord bot's token to the project. Go to https://discordapp.com/developers/applications/, click on your bot's application, then click `Bot` in the Settings menu on the left, and copy your bot's 'token'.
 
 Then run
 ```bash
