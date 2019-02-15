@@ -1,0 +1,30 @@
+{
+  "name": "now-discordjs",
+  "version": "1.0.0",
+  "description": "A discord.js bot deployable to ZEIT's free Now cloud.",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImFeelingDucky/now-discordjs.git"
+  },
+  "keywords": [
+    "now",
+    "discord.js",
+    "discord",
+    "bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ImFeelingDucky/now-discordjs/issues"
+  },
+  "homepage": "https://github.com/ImFeelingDucky/now-discordjs#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "esm": "^3.2.4"
+  }
+}
