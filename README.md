@@ -58,6 +58,8 @@ where `now-discordjs` is the name of the current directory. There will be some d
 $ now
 ```
 
+Deployment scaling is already defined in the provided `now.json` so the bot will always be scaled to one instance (so that it never goes offline or has more than one copy active). It has been configured to deploy this one instance to the `bru1` region in Brussels, Belgium, but if Now [supports a region closer to you](https://zeit.co/docs/v1/features/scaling/#regions) which supports non-serverlss deployments (`iad1` does not, so cannot be used, for example) you can redefine this to whatever region that is.
+
 ## Build your bot
 Now you have deployment set up, build your bot by editing `main.js`. This template already has ECMAScript Modules support enabled, so you can `import` rather than `require()`.
 
