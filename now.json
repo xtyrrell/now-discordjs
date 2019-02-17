@@ -5,5 +5,8 @@
 		"TOKEN": "@discord-token"
 	},
 	"public": true,
-	"regions": ["bru1"]
+	"regions": ["bru1"],
+	"github": {
+		"enabled": "false"
+	}
 }
