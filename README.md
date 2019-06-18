@@ -2,7 +2,7 @@
 A template for developing a discord.js bot to deploy on ZEIT's free Now deployment platform.
 
 ## What is this?
-If you're written a Discord bot, and want to run it on a Discord server, one option is to simply run it from your own computer. However, having to choose between keeping your PC running or letting your bot go offline isn't great.
+If you've written a Discord bot, and want to run it on a Discord server, one option is to simply run it from your own computer. However, having to choose between keeping your PC running or letting your bot go offline isn't great.
 
 A better option would be to deploy the bot to a remote platform where it can stay online 24/7 and operate independently of your own computer.
 
