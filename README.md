@@ -1,5 +1,14 @@
+# Important: ZEIT Now version 1 deprecation
+Please note that as of 03/04/2020, ZEIT has deprecated Now version 1. This version allowed continuously-running services, which the technique described in this guide took advantage of. As of 01/05/2020, it will no longer be possible to create a new Now version 1 deployment.
+
+This template has not been removed as it may still be helpful as a reference when deploying your Discord bot somewhere else.
+
+Hopefully this template can be ported to another platform, such as Heroku.
+
+Until then, be cautious when following this guide!
+
 # now-discordjs
-A template for developing a discord.js bot to deploy on ZEIT's free Now deployment platform.
+This was a template for developing a discord.js bot to deploy on ZEIT's free Now deployment platform.
 
 ## Quickstart
 1. Clone this repository
@@ -13,9 +22,9 @@ If you've written a Discord bot, and want to run it on a Discord server, one opt
 
 A better option would be to deploy the bot to a remote platform where it can stay online 24/7 and operate independently of your own computer.
 
-This project provides a template to deploy a bot written using the `discord.js` library to ZEIT's free [Now deployment platform](https://zeit.co/now).
+This project provided a template to deploy a bot written using the `discord.js` library to ZEIT's free [Now deployment platform](https://zeit.co/now).
 
-Note that because this project is set up for bots written in JavaScript, you will probably struggle to get it working for a bot written in any other language. In that case, try deploying it through Heroku or glitch.com, or with a paid VPS like a DigitalOcean droplet.
+Note that because this project was set up for bots written in JavaScript, you will probably struggle to get it working for a bot written in any other language. In that case, try deploying it through Heroku or glitch.com, or with a paid VPS like a DigitalOcean droplet.
 
 # How to deploy your bot
 Credits: parts of this guide are adapted from https://itnext.io/hosting-a-javascript-discord-bot-for-free-with-zeit-now-c140e27c6936.
